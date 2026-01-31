@@ -5,9 +5,10 @@ scikit-learn
 matplotlib 
 seaborn 
 python-box==6.0.2
+python-box
 pyYaml
 tqdm
-ensure==1.0.2
+ensure==1.0.4
 joblib
 types-PyYaml
 Flask
