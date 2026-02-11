@@ -66,9 +66,7 @@ jobs:
           IMAGE_URI=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "Building image: $IMAGE_URI"
 
-          # 🔍 DEBUG COMMANDS (REMOVE AFTER FIXING)
-          pwd
-          ls -la
+          
 
           docker build -t $IMAGE_URI .
           docker push $IMAGE_URI
